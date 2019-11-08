@@ -6,9 +6,4 @@ def prime?(num)
     if (2..num-1).to_a.all? { |int| num % int  != 0 }
       return false
     end
-  if prime?(11)
-    puts "true"
-  else
-    puts "false"
-  end
 end
