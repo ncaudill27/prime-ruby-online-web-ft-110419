@@ -7,5 +7,6 @@ def prime?(num)
       return false
     end
   if prime?(11)
-    puts
+    puts "true"
+  else
 end
