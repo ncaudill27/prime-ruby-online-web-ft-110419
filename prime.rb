@@ -3,7 +3,7 @@ def prime?(num)
     if num <= 1
       return false
     end
-    if (2..num).select { |int| num % int  == 0 }
+    if (2..num-1).to_a { |int| num % int  == 0 }
       return false
     end
   if prime?(11)
