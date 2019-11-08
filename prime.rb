@@ -4,6 +4,5 @@ def prime?(num)
       return false
     end
     if (2..num-1).to_a.all? { |int| num % int  != 0 }
-      return false
     end
 end
