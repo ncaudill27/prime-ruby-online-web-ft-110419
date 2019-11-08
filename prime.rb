@@ -8,6 +8,6 @@ def prime?(num)
   elsif (2..num).select { |int| num % int  == 0 }
     return true
   else
-    return true
+    return false
   end
 end
