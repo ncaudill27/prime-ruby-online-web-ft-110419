@@ -9,4 +9,5 @@ def prime?(num)
   if prime?(11)
     puts "true"
   else
+    puts "false"
 end
